@@ -2,15 +2,14 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FristCompComponent } from './frist-comp/frist-comp.component';
-import { SecondCompComponent } from './second-comp/second-comp.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,FristCompComponent,SecondCompComponent],
+  imports: [CommonModule, RouterOutlet,FristCompComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assignment5-2';
+  title = 'Assignment-5-3';
 }
